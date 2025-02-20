@@ -1,35 +1,28 @@
 # Drop
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+一个使用 [libGDX](https://libgdx.com/) 生成的项目，通过 [gdx-liftoff](https://github.com/libgdx/gdx-liftoff) 创建。
 
-This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
+该项目使用包含简单应用程序启动器和一个空的 `ApplicationListener` 实现的模板生成。
 
-## Platforms
+> 该项目由作者 [IT小佳](https://github.com/it-xiaojia) 基于libGDX示例项目二次开发
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-- `android`: Android mobile platform. Needs Android SDK.
+> 官方示例项目仓库地址：[tutorials](https://github.com/libgdx/libgdx.github.io/tree/dev/assets/downloads/tutorials)
 
-## Gradle
+> 官方Wiki：[Wiki链接](https://libgdx.com/wiki/)
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## 平台
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+- `core`: 主模块，包含所有平台共享的应用程序逻辑。
+- `lwjgl3`: 主要的桌面平台，使用 LWJGL3；在旧文档中称为 'desktop'。
+- `android`: Android 移动平台。需要 Android SDK。
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+## 项目拓展
+
+- 使用通义AI生成代码注释，更好理解官方示例demo
+- 加入中文（包括大部分中文标点符号）支持：中文字库-思源黑体 Normal
+
+## 游戏运行截图
+
+![image-20250220131337308](README.assets/image-20250220131337308.png)
+
+![image-20250220131510027](README.assets/image-20250220131510027.png)
